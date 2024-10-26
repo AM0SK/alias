@@ -66,6 +66,11 @@ nav a {
   color: #ffffff;
   text-decoration: none;
   margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #9a00c0;
 }
 
 section {

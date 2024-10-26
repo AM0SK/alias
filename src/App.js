@@ -13,7 +13,7 @@ function App() {
             <span>Alias online</span>
           </div>
           <nav>
-            <a href="#what-it-is">What it is</a>
+            <a href="#what-is-it">What is it</a>
             <a href="#advantages">Advantages</a>
             <a href="#trending">Trending</a>
           </nav>
@@ -61,7 +61,7 @@ function App() {
             <span>Alias online</span>
           </div>
           <nav>
-            <a href="#what-it-is">What it is</a>
+            <a href="#what-is-it">What is it</a>
             <a href="#advantages">Advantages</a>
             <a href="#trending">Trending</a>
           </nav>
