@@ -2,8 +2,14 @@ name: Deploy to FTP
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]  # или master, в зависимости от названия вашей основной ветки
+  pull_request:
+    branches: [ main ]  # или master
+  workflow_dispatch:  # Это позволяет запускать workflow вручную
+
+permissions:
+  contents: read
+  actions: read
 
 jobs:
   deploy:
@@ -31,4 +37,3 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
         server-dir: /
-
